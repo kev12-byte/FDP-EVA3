@@ -1,0 +1,78 @@
+Microsoft Windows [Versión 10.0.26200.7171]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Geek_>cd..
+
+C:\Users>cd..
+
+C:\>cd practicas
+
+C:\practicas>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 3A20-45D2
+
+ Directorio de C:\practicas
+
+24/11/2025  04:27 p. m.    <DIR>          .
+24/11/2025  04:27 p. m.                25 Prueba.java
+14/11/2025  04:53 p. m.               119 Prueva.java
+               2 archivos            144 bytes
+               1 dirs  394,805,571,584 bytes libres
+
+C:\practicas>javac Prueba.java
+
+C:\practicas>java Prueba
+Error: Main method not found in class Prueba, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+
+C:\practicas>java Prueva
+Error: Could not find or load main class Prueva
+Caused by: java.lang.ClassNotFoundException: Prueva
+
+C:\practicas>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 3A20-45D2
+
+ Directorio de C:\practicas
+
+24/11/2025  06:28 p. m.    <DIR>          .
+24/11/2025  06:28 p. m.               186 Prueba.class
+24/11/2025  06:43 p. m.               125 Prueba.java
+14/11/2025  04:53 p. m.               119 Prueva.java
+               3 archivos            430 bytes
+               1 dirs  394,784,907,264 bytes libres
+
+C:\practicas>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 3A20-45D2
+
+ Directorio de C:\practicas
+
+24/11/2025  06:45 p. m.    <DIR>          .
+24/11/2025  06:45 p. m.               125 Prueba.java
+               1 archivos            125 bytes
+               1 dirs  394,778,992,640 bytes libres
+
+C:\practicas>java Prueba
+Error: Could not find or load main class Prueba
+Caused by: java.lang.ClassNotFoundException: Prueba
+
+C:\practicas>javac Prueba.java
+
+C:\practicas>dir
+ El volumen de la unidad C no tiene etiqueta.
+ El número de serie del volumen es: 3A20-45D2
+
+ Directorio de C:\practicas
+
+24/11/2025  11:00 p. m.    <DIR>          .
+24/11/2025  11:00 p. m.               416 Prueba.class
+24/11/2025  06:45 p. m.               125 Prueba.java
+               2 archivos            541 bytes
+               1 dirs  395,323,445,248 bytes libres
+
+C:\practicas>java Prueba
+Hola mundo
+
+C:\practicas>
